@@ -1,0 +1,86 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Form /> renders the <Form /> with an error 1`] = `
+<div
+  class="form__Container-sc-c4cy4e-0 hyBRhd"
+>
+  <div
+    class="form__Error-sc-c4cy4e-1 casvXr"
+  >
+    Your email address is already being used
+  </div>
+  <button
+    class="form__Submit-sc-c4cy4e-8 cRXEEH"
+    type="submit"
+  >
+    Sign In
+  </button>
+</div>
+`;
+
+exports[`<Form /> renders the <Form /> with an error 2`] = `
+<div
+  class="form__Container-sc-c4cy4e-0 hyBRhd"
+>
+  <div
+    class="form__Error-sc-c4cy4e-1 casvXr"
+  >
+    Your email address is already being used
+  </div>
+  <button
+    class="form__Submit-sc-c4cy4e-8 cRXEEH"
+    data-testid="click"
+    type="submit"
+  >
+    Sign In
+  </button>
+</div>
+`;
+
+exports[`<Form /> renders the <Form /> with populated data 1`] = `
+<div
+  class="form__Container-sc-c4cy4e-0 hyBRhd"
+>
+  <h1
+    class="form__Title-sc-c4cy4e-3 iyTjFm"
+  >
+    Sign In Now
+  </h1>
+  <form
+    class="form__Base-sc-c4cy4e-2 dwqcRN"
+  >
+    <input
+      class="form__Input-sc-c4cy4e-7 freBtc"
+      placeholder="Email address"
+    />
+    <input
+      class="form__Input-sc-c4cy4e-7 freBtc"
+      placeholder="Password"
+      type="password"
+    />
+    <button
+      class="form__Submit-sc-c4cy4e-8 cRXEEH"
+      disabled=""
+      type="submit"
+    >
+      Sign In
+    </button>
+  </form>
+  <p
+    class="form__Text-sc-c4cy4e-4 jlUlEX"
+  >
+    New to Netflix? 
+    <a
+      class="form__Link-sc-c4cy4e-6 kVOjxp"
+      href="/signup"
+    >
+      Sign up now.
+    </a>
+  </p>
+  <p
+    class="form__TextSmall-sc-c4cy4e-5 gdIGij"
+  >
+    This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.
+  </p>
+</div>
+`;

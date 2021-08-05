@@ -17,7 +17,7 @@ import {
   Text,
   Feature,
   Logo,
-} from './styles/header.';
+} from './styles/header';
 
 export default function Header({ bg = true, children, ...restProps }) {
   return bg ? (
@@ -61,11 +61,11 @@ Header.Search = function HeaderSearch({
         <img src="/images/icons/search.png" alt="Search" />
       </SearchIcon>
       <SearchInput
+        data-testid="search-input"
         value={searchTerm}
         onChange={({ target }) => setSearchTerm(target.value)}
         placeholder="Search films and series"
         active={searchActive}
-        data-testid="search-input"
       />
     </Search>
   );

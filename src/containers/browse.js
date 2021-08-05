@@ -7,7 +7,7 @@ import { FirebaseContext } from '../context/firebase';
 import { SelectProfileContainer } from './profiles';
 import { FooterContainer } from './footer';
 
-export function BrowseContainer({ slides }) {
+export const BrowseContainer = ({ slides }) => {
   const [category, setCategory] = useState('series');
   const [profile, setProfile] = useState({});
   const [loading, setLoading] = useState(true);
@@ -117,8 +117,8 @@ export function BrowseContainer({ slides }) {
               <Player>
                 <Player.Button />
                 <Player.Video
-                  controls
-                  autoplay="autoplay"
+                  // controls
+                  // autoplay="autoplay"
                   src="/videos/bunny.mp4"
                 />
               </Player>
@@ -131,4 +131,4 @@ export function BrowseContainer({ slides }) {
   ) : (
     <SelectProfileContainer user={user} setProfile={setProfile} />
   );
-}
+};
